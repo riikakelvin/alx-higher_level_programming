@@ -1,1 +1,1 @@
-Readme file for the Python Introductory project. Hello World using Python. It also contains python scripts
+README file for project 0x00. Python - Hello, World
