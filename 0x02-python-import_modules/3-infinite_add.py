@@ -1,9 +1,18 @@
 #!/usr/bin/python3
-if __name__=="__main__":
-    import sys
+def add_arg(argv):
+    num = len(argv) - 1
+    if num == 0:
+        print("{:d}".format(num))
+        return
+    else:
+        x = 1
+        added = 0
+        while x <= num:
+            added = added + int(argv[x])
+            x = x + 1
+        print("{:d}".format(added))
 
-    add_total = 0
-    for x in range(len(sys.argv) - 1):
-       add_total = add_total + int(sys.argv[i + 1])
-    print("{}".format(add_total))
+if __name__ == "__main__":
+    import sys
+    add_arg(sys.argv)
 
