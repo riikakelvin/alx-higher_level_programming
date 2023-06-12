@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 
 def no_c(my_string):
-    new_str = " "
-    for i in my_string:
-        if (i != 'C') and (i != 'c'):
-            new_str = new_str + i
-    return (new_str)
+    copy = [x for x in my_string if x != 'c' and x != 'C']
+    return (" ".join(copy))
