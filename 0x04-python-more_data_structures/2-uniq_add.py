@@ -4,6 +4,6 @@ def uniq_add(my_list=[]):
     integer = 0
 
     for i in outlier_list:
-        integer+ = i
+        integer += i
 
     return (integer)
