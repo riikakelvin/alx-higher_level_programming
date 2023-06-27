@@ -1,14 +1,15 @@
 #!/usr/bin/python3
-
+'''defines a class square'''
 class Square:
-
+    '''representation of the square'''
     def __init__(self, size=0, position=(0, 0)):
-
+        '''arguement includes size and new square positioning '''
         self.size = size
         self.position = position
 
     @property
     def size(self):
+        '''defines the size of current square area'''
         return (self.__size)
 
     @size.setter
@@ -21,6 +22,7 @@ class Square:
 
     @property
     def position(self):
+        '''defines the size of current square area'''
         return (self.__position)
 
     @position.setter
@@ -36,6 +38,7 @@ class Square:
         return (self.__size * self.__size)
 
     def my_print(self):
+        '''prints out square with hush (#) symbol'''
         if self.__size == 0:
             print("")
             return
