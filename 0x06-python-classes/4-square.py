@@ -2,9 +2,12 @@
 '''defines a class square'''
 class Square:
     '''representation of the square'''
+
     def __init__(self, size=0):
-         '''assigns a new square created'''
-         '''arguement includes size and int'''
+        '''assignment of a new square'''
+
+        '''assigns a new square created'''
+        '''arguement includes size and int'''
         self.size = size
 
     @property
