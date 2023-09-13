@@ -1,10 +1,10 @@
 #!/usr/bin/node
 const dict = require('./101-data').dict;
-const new_Dict = {};
-for (const ke in dict) {
-  if (newDict[dict[ke]] === undefined) {
-    newDict[dict[ke]] = [];
+const newDict = {};
+for (const kE in dict) {
+  if (newDict[dict[kE]] === undefined) {
+    newDict[dict[kE]] = [];
   }
-  newDict[dict[ke]].push(ke);
+  newDict[dict[kE]].push(kE);
 }
 console.log(newDict);
