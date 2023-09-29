@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-""" module doc """
-from urllib import request
+""" module do strings"""
+import urllib.request
 import sys
 
 if __name__ == "__main__":
